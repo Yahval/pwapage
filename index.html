@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noticias One Piece</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header class="header">
+    <h1>Noticias One Piece</h1>
+    <nav>
+      <a href="#slider">Inicio</a>
+      <a href="#perfil">Mi Perfil</a>
+      <a href="#noticias">Noticias</a>
+    </nav>
+  </header>
+
+  <!-- Slider de noticias destacadas -->
+  <section id="slider" class="slider">
+    <div class="slides">
+      <div class="slide active">
+        <img src="/img/cap-manga.webp" alt="Noticia 1">
+        <div class="caption">Nuevo capitulo del manga</div>
+      </div>
+      <div class="slide">
+        <img src="/img/cap-anime.webp" alt="Noticia 2">
+        <div class="caption">Nuevo capitulo del anime</div>
+      </div>
+      <div class="slide">
+        <img src="/onepiece.jpg" alt="Noticia 3">
+        <div class="caption">Teoria, Que es el one piece?</div>
+      </div>
+    </div>
+
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </section>
+
+  <!-- Perfil del usuario -->
+  <section id="perfil" class="perfil">
+    <h2>Mi Perfil</h2>
+    <div class="perfil-info">
+      <img class="foto-perfil" src="/img/FotoPerfil.jpg" alt="Perfil">
+      <div>
+        <h3>Juan Pérez</h3>
+        <p>Experto en one piece</p>
+      </div>
+    </div>
+
+    <form id="form-noticia" class="form-noticia">
+      <h3>Agregar nueva noticia</h3>
+      <input type="text" id="titulo" placeholder="Título de la noticia" required>
+      <textarea id="contenido" placeholder="Contenido de la noticia" required></textarea>
+      <button type="submit">Publicar</button>
+    </form>
+  </section>
+
+  <!-- Sección donde se mostrarán las noticias agregadas -->
+  <section id="noticias" class="noticias">
+    <h2>Últimas noticias</h2>
+    <div id="contenedor-noticias"></div>
+  </section>
+
+  <footer>
+    <p>© 2025 Noticias One Piece - Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="/js/index.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "short_name": "PWAAPP",
+  "name": "PWAAPP",
+  "description": "A Progressive Web App for managing everything.",
+  "icons": [
+  
+    {
+      "src": "/img/pirate.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+ 
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#000000",  
+  "background_color": "#FFFFFF",  
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "en-US"
+}
