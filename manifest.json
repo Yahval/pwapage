@@ -5,7 +5,7 @@
   "icons": [
   
     {
-      "src": "img/pirate.png",
+      "src": "./img/pirate.png",
       "sizes": "256x256",
       "type": "image/png"
     }
@@ -19,4 +19,5 @@
   "scope": "/",
   "lang": "en-US"
 }
+
 
